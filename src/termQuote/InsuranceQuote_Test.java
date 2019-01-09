@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class InsuranceQuote_Test {
 
 	@Test
-	public void logintest() {
+	public void Quotetest() {
 	//Navigating to the AAA Traditional Term Quote page	
 		System.setProperty("webdriver.chrome.driver", ".\\src\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();

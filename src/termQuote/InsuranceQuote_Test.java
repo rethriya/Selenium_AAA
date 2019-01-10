@@ -79,6 +79,7 @@ public class InsuranceQuote_Test {
 	//Click to see the Quote
 		driver.findElement(By.id("seeQuote")).click();
 		driver.navigate().back();
+		driver.close();
 	}
 	
 	
